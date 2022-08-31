@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DinnerHostingPlatform.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DinnerHostingPlatform.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DinnerHostingPlatform.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DinnerHostingPlatform.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DinnerHostingPlatform.Domain/DinnerHostingPlatform.Domain.csproj",
+      "msbuildProject": "../DinnerHostingPlatform.Domain/DinnerHostingPlatform.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DinnerHostingPlatform.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vip\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.Domain\\DinnerHostingPlatform.Domain.csproj": {
+              "projectPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.Domain\\DinnerHostingPlatform.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

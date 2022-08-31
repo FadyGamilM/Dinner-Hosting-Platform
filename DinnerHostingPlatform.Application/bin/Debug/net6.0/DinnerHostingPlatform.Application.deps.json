@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DinnerHostingPlatform.Application/1.0.0": {
+        "dependencies": {
+          "DinnerHostingPlatform.Domain": "1.0.0"
+        },
         "runtime": {
           "DinnerHostingPlatform.Application.dll": {}
+        }
+      },
+      "DinnerHostingPlatform.Domain/1.0.0": {
+        "runtime": {
+          "DinnerHostingPlatform.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DinnerHostingPlatform.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DinnerHostingPlatform.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

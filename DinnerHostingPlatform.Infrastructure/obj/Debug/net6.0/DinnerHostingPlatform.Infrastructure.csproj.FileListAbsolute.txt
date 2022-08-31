@@ -10,3 +10,8 @@ F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHo
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\refint\DinnerHostingPlatform.Infrastructure.dll
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.pdb
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\ref\DinnerHostingPlatform.Infrastructure.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Application.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Domain.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Application.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Domain.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.csproj.CopyComplete

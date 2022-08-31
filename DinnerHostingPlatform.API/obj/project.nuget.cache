@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LM9bqTuMcLOIayXzK/FFhokvJqgSZb2vJFrFt9hL4NwQ5oPYsZ//xQ9R9CCAiX0s5AS815MPjmcmLXtauQBh6g==",
+  "dgSpecHash": "25F0v+wWz5szqkbP1TMFydlYMQY8UqUqyu3FSLYus6gMYNPLM+5t7lx6A+gUfidP4MsvifOg1/juhy7TIcavKg==",
   "success": true,
   "projectFilePath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.API\\DinnerHostingPlatform.API.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vip\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\vip\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\vip\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\vip\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\vip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\vip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

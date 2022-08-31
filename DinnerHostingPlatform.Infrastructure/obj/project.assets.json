@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DinnerHostingPlatform.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DinnerHostingPlatform.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DinnerHostingPlatform.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DinnerHostingPlatform.Application.dll": {}
+        }
+      },
+      "DinnerHostingPlatform.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DinnerHostingPlatform.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DinnerHostingPlatform.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DinnerHostingPlatform.Application/1.0.0": {
+      "type": "project",
+      "path": "../DinnerHostingPlatform.Application/DinnerHostingPlatform.Application.csproj",
+      "msbuildProject": "../DinnerHostingPlatform.Application/DinnerHostingPlatform.Application.csproj"
+    },
+    "DinnerHostingPlatform.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DinnerHostingPlatform.Domain/DinnerHostingPlatform.Domain.csproj",
+      "msbuildProject": "../DinnerHostingPlatform.Domain/DinnerHostingPlatform.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DinnerHostingPlatform.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vip\\.nuget\\packages\\": {},
@@ -37,7 +74,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.Application\\DinnerHostingPlatform.Application.csproj": {
+              "projectPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.Application\\DinnerHostingPlatform.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

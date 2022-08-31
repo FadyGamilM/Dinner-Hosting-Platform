@@ -1,0 +1,12 @@
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\bin\Debug\net6.0\DinnerHostingPlatform.Contracts.deps.json
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\bin\Debug\net6.0\DinnerHostingPlatform.Contracts.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\bin\Debug\net6.0\DinnerHostingPlatform.Contracts.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.csproj.AssemblyReference.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.AssemblyInfoInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.AssemblyInfo.cs
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.csproj.CoreCompileInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\refint\DinnerHostingPlatform.Contracts.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\DinnerHostingPlatform.Contracts.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Contracts\obj\Debug\net6.0\ref\DinnerHostingPlatform.Contracts.dll

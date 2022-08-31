@@ -1,0 +1,12 @@
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\bin\Debug\net6.0\DinnerHostingPlatform.Domain.deps.json
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\bin\Debug\net6.0\DinnerHostingPlatform.Domain.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\bin\Debug\net6.0\DinnerHostingPlatform.Domain.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.csproj.AssemblyReference.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.AssemblyInfoInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.AssemblyInfo.cs
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.csproj.CoreCompileInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\refint\DinnerHostingPlatform.Domain.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\DinnerHostingPlatform.Domain.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Domain\obj\Debug\net6.0\ref\DinnerHostingPlatform.Domain.dll

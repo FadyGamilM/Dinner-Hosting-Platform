@@ -1,0 +1,12 @@
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Infrastructure.deps.json
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Infrastructure.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\bin\Debug\net6.0\DinnerHostingPlatform.Infrastructure.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.csproj.AssemblyReference.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.AssemblyInfoInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.AssemblyInfo.cs
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\refint\DinnerHostingPlatform.Infrastructure.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\DinnerHostingPlatform.Infrastructure.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.Infrastructure\obj\Debug\net6.0\ref\DinnerHostingPlatform.Infrastructure.dll

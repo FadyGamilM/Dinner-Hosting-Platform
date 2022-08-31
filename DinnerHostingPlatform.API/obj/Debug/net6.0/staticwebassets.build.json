@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HCnNK6I15RwPjK06t/Nr/B5WxdoD3lVj52ygy9TvhkM=",
+  "Source": "DinnerHostingPlatform.API",
+  "BasePath": "_content/DinnerHostingPlatform.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

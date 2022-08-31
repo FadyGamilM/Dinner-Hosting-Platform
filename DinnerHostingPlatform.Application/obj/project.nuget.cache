@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "b6ajPSoJJuhwBafz4GULYkFXdDRm59rz49c2jbG5j44kIA9ti2y5dYYgOPa5OAf/Ox2Pw/DcCRWjVYQo3vuF/A==",
+  "dgSpecHash": "6qUpEoGeCKjWk5/S3S5MbneuHpejCfnfu1verl3kOqhv1PdM/UZdVFvpYe4xb/oTqtj7w6IWZVV8AAyWTnMGBw==",
   "success": true,
   "projectFilePath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\DinnerHostingPlatform\\DinnerHostingPlatform.Application\\DinnerHostingPlatform.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

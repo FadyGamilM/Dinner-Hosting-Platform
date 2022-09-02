@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.Extensions.Options;
+using DinnerHostingPlatform.Domain.Entities;
 
 namespace DinnerHostingPlatform.Infrastructure.Authentication
 {
@@ -17,7 +18,7 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
          this._DateTimeProivder = DateTimeProvider;
          this._jwtoptions = jwtoptions.Value;
       }
-      public string GenerateToken(Guid userID, string firstName, string lastName)
+      public string GenerateToken(User user)
       {
          var SigningCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
@@ -28,11 +29,11 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
          
          var Claims = new []
          {
-            new Claim(JwtRegisteredClaimNames.Sub, userID.ToString()),
-            new Claim(JwtRegisteredClaimNames.GivenName, firstName),
-            new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-         };
+      };
 
          var securityToken = new JwtSecurityToken(
             issuer: this._jwtoptions.Issuer,

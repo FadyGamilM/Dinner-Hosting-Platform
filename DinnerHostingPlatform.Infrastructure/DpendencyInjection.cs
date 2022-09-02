@@ -4,6 +4,9 @@ using DinnerHostingPlatform.Application.Services;
 using DinnerHostingPlatform.Application.Common.Interfaces.Authentication;
 using DinnerHostingPlatform.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
+using DinnerHostingPlatform.Application.Common.Interfaces.Persistence;
+using DinnerHostingPlatform.Infrastructure.Persistence;
+
 namespace DinnerHostingPlatform.Infrastructure
 {
    public static class DependencyInjection
@@ -18,6 +21,8 @@ namespace DinnerHostingPlatform.Infrastructure
          services.AddScoped<IJwtTokenGenerator, jwtTokenGenerator>();
          //! Inject the Date Time Provider service to be utilizer later
          services.AddScoped<IDateTimeProvider, DateTimeProvider>();
+         //! Configure the concrete implementation of the USER REPOSITORY SERVICE
+         services.AddScoped<IUserRepository, UserRepository>();
          return services;
       }
    }

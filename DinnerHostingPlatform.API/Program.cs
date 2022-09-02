@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
     //! Inject the services from the Application Layer
     //! Inject the services from the Infrastructure Layer
     builder.Services.AddApplicationLayerDependencies()
-                           .AddInfrastructureLayerDependencies();
+                           .AddInfrastructureLayerDependencies(builder.Configuration);
     // Add services to the container.
     builder.Services.AddControllers();
 }

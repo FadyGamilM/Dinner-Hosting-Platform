@@ -1,5 +1,6 @@
 using System.Text;
 using DinnerHostingPlatform.Application.Common.Interfaces.Authentication;
+using DinnerHostingPlatform.Application.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -8,6 +9,11 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
 {
    public class jwtTokenGenerator : IJwtTokenGenerator
    {
+      private readonly IDateTimeProvider _DateTimeProivder;
+      public jwtTokenGenerator(IDateTimeProvider DateTimeProvider)
+      {
+         this._DateTimeProivder = DateTimeProvider;
+      }
       public string GenerateToken(Guid userID, string firstName, string lastName)
       {
          var SigningCredentials = new SigningCredentials(
@@ -27,7 +33,7 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
 
          var securityToken = new JwtSecurityToken(
             issuer: "DinnerHostingPlatform",
-            expires: DateTime.Now.AddDays(1),
+            expires: this._DateTimeProivder.UtcNow.AddMinutes(60),
             claims: Claims,
             signingCredentials: SigningCredentials
          );

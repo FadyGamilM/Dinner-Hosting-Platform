@@ -4,21 +4,24 @@ using DinnerHostingPlatform.Application.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using Microsoft.Extensions.Options;
 
 namespace DinnerHostingPlatform.Infrastructure.Authentication
 {
    public class jwtTokenGenerator : IJwtTokenGenerator
    {
       private readonly IDateTimeProvider _DateTimeProivder;
-      public jwtTokenGenerator(IDateTimeProvider DateTimeProvider)
+      private readonly JwtSettings _jwtoptions;
+      public jwtTokenGenerator(IDateTimeProvider DateTimeProvider, IOptions<JwtSettings> jwtoptions)
       {
          this._DateTimeProivder = DateTimeProvider;
+         this._jwtoptions = jwtoptions.Value;
       }
       public string GenerateToken(Guid userID, string firstName, string lastName)
       {
          var SigningCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
-               Encoding.UTF8.GetBytes("super-secret-key")
+               Encoding.UTF8.GetBytes(this._jwtoptions.Secret)
             ),
             SecurityAlgorithms.HmacSha256
          );
@@ -32,8 +35,9 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
          };
 
          var securityToken = new JwtSecurityToken(
-            issuer: "DinnerHostingPlatform",
-            expires: this._DateTimeProivder.UtcNow.AddMinutes(60),
+            issuer: this._jwtoptions.Issuer,
+            audience: this._jwtoptions.Audience,
+            expires: this._DateTimeProivder.UtcNow.AddMinutes(this._jwtoptions.ExpiryMinutes),
             claims: Claims,
             signingCredentials: SigningCredentials
          );

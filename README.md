@@ -33,46 +33,45 @@ Take Your Home And Turn It Into A Restaurant.
       > `POST {{host}}/auth/register`
 
       Body : 
-      > {
-      >>     "firstname" : "fady",
-      >>      "lastname" : "gamil",
-      >>       "email" : "fady@gmail.com",
-      >>       "password" : "passw@rd" 
-      > }
-   - Response
-      > {
-      >>     "id" : "dfxav456-fasfasfcx-fasfasfas",****
-      >>     "firstname" : "fady",
-      >>      "**lastname**" : "gamil",
-      >>       "email" : "fady@gmail.com",
-      >>       "token" : "123Yx8fsx#3fsg"
-      > }
+    ``` json
+      {
+        "firstname" : "fady",
+        "lastname" : "gamil",
+        "email" : "fady@gmail.com",
+        "password" : "passw@rd" 
+    }
+    ```
+  - Response
+  
+  ```json
+    {
+      "id" : "dfxav456-fasfasfcx-fasfasfas",
+      "firstname" : "fady",
+      "lastname" : "gamil",
+      "email" : "fady@gmail.com",
+      "token" : "123Yx8fsx#3fsg"
+    }
+  ```
 
  - **Login**
    - Request
       URL : 
       > `POST {{host}}/auth/login`
 
-      Body : 
-      > {
-      >>       "email" : "fady@gmail.com",
-      >>       "password" : "passw@rd" 
-      > }
+      Body :
+      ```json 
+      {
+        "email" : "fady@gmail.com",
+        "password" : "passw@rd" 
+      }
+      ```
    - Response
-      > {
-      >>      "id" : "dfxav456-fasfasfcx-fasfasfas",
-      >>     "firstname" : "fady",
-      >>      "lastname" : "gamil",
-      >>       "email" : "fady@gmail.com",
-      >>       "token" : "123Yx8fsx#3fsg" 
-      > }
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Dinner-Hosting-Platform](#dinner-hosting-platform)
-- [Dinner Hosting Platform - Domain/Core Layer.](#dinner-hosting-platform---domaincore-layer)
-  - [Domain Models](#domain-models)
-- [Dinner Hosting Platform - API Layer.](#dinner-hosting-platform---api-layer)
-
-<!-- /code_chunk_output -->
+  ```json
+    {
+      "id" : "dfxav456-fasfasfcx-fasfasfas",
+      "firstname" : "fady",
+      "lastname" : "gamil",
+      "email" : "fady@gmail.com",
+      "token" : "123Yx8fsx#3fsg"
+    }
+  ```

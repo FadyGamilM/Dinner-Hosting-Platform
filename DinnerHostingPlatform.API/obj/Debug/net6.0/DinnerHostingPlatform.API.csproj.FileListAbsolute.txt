@@ -28,3 +28,8 @@ F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHo
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\DinnerHostingPlatform.Application.pdb
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\DinnerHostingPlatform.Infrastructure.pdb
 F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\DinnerHostingPlatform.Domain.pdb
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\__111 COMPUTER SCIENCE\4th CSE 2022\dotnet\dev\DinnerHostingPlatform\DinnerHostingPlatform.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -32,7 +32,7 @@ namespace DinnerHostingPlatform.Infrastructure.Authentication
             new Claim(JwtRegisteredClaimNames.GivenName, firstName),
             new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-         };
+      };
 
          var securityToken = new JwtSecurityToken(
             issuer: this._jwtoptions.Issuer,
